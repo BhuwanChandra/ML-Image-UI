@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import ImageCard from '../components/ImageCard';
 
-function Home() {
+function HomePage() {
   return (
     <Container>
       <Row xs={2} md={3} lg={4} className="m-3">
@@ -30,4 +30,4 @@ const allServices = [
   "Change Sky",
 ]
 
-export default Home
+export default HomePage

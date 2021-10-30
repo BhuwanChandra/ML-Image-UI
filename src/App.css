@@ -1,10 +1,50 @@
-
 .images-row {
-  width: 50%;
+  width: 70%;
   margin: 20px auto;
+  position: relative;
 }
 
 .select-img {
-  height: 125px;
+  height: 120px;
+  width: 180px;
+  margin: auto;
   cursor: pointer;
+}
+
+.images-row .btn-prev {
+  left: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.images-row .btn-next {
+  right: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.images-row .btn-next,
+.images-row .btn-prev {
+  position: absolute;
+  top: 0px;
+  padding-top: 25px;
+  height: 100%;
+  font-size: 50px;
+  background-color: #7e7e7e;
+  color: #dadada;
+  cursor: pointer;
+}
+
+.result-image-container {
+  border: 1px solid #4e4e4e;
+  width: 70%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  align-items: center;
+}
+
+.result-image {
+  height: 80%;
 }

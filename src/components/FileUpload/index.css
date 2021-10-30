@@ -1,15 +1,19 @@
 .dropzone {
   text-align: center;
   padding: 50px 30px;
-  border: 3px dashed #cecece;
+  border: 4px dashed #cecece;
   background-color: #f0f0f0;
   color: #6e6e6e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
-  width: 50%;
+  width: 70%;
+  height: 60vh;
   margin: 20px auto;
 }
 
 .selected-file {
-  color: #000; 
+  color: #000;
   font-weight: bold;
 }

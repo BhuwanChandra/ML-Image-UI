@@ -4,19 +4,19 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import Home from './pages/Home';
-import Image from './pages/Image';
+import HomePage from './pages/HomePage';
+import ModelPage from './pages/ModelPage';
 import './App.css';
 
 function App() {
   return (
     <Router>
         <Switch>
-          <Route path="/image">
-            <Image />
+          <Route path="/model/:type">
+            <ModelPage />
           </Route>
           <Route path="/">
-            <Home />
+            <HomePage />
           </Route>
         </Switch>
     </Router>
