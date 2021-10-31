@@ -7,7 +7,8 @@
 .select-img {
   height: 120px;
   width: 180px;
-  margin: auto;
+  margin-left: 15px;
+  margin-right: 15px;
   cursor: pointer;
 }
 
@@ -47,4 +48,26 @@
 
 .result-image {
   height: 80%;
+}
+
+@media (max-width: 992px) { 
+  .images-row, .result-image-container {
+    width: 85%;
+  }
+}
+
+@media (max-width: 768px) { 
+  .images-row, .result-image-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) { 
+  .images-row, .result-image-container {
+    width: 100%;
+  }
+  .select-img {
+    width: 50%;
+    margin-left: 25%;
+  }
 }
